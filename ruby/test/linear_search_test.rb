@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/spec'
-require_relative 'linear_search'
+require_relative '../lib/linear_search.rb'
 
 describe 'linear search' do
   it "finds the number from array" do
